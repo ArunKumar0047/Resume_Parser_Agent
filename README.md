@@ -34,12 +34,23 @@ Develop a multi-agent workflow that performs the following tasks:
    - extractor : extracts the relevant fields from the content
    - validator : reviews the correctness of the extraction
 
-4. A Graph is created using Langgraph with these agents as the nodes and connecting them using edges
+4. A Graph is created using Langgraph with these agents as the nodes and connecting them using edges with termination conditions
 
 5. A router logic is defined as to when to terminate the graph
+
+6. Each agent's output is printed with the final extraction
    
 
 ### Structure
+project
+    |_main.py
+    |_loaders.py
+    |_workflow.py
+    |_agents
+        |_reader_agent.py
+        |_extractor_agent.py
+        |_validator_agent.py
+    |_uploaded
 
 ### How to run?
 
