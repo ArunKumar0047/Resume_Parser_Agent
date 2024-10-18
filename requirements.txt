@@ -1,0 +1,9 @@
+langchain==0.3.3
+langchain-openai==0.2.2
+langchain-community==0.3.2
+langgraph==0.2.35
+langgraph-sdk==0.1.32
+openai==1.51.2
+streamlit==1.39.0
+docx2txt==0.8
+pymupdf==1.24.11
