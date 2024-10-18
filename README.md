@@ -17,10 +17,10 @@ Develop a multi-agent workflow that performs the following tasks:
 - How to run?
 
 ### Features
-- UI: Streamlit
-- Framework: Langgraph, Langchain
-- Model: OpenAI (integrated within Langchain)
-- File Loaders: PyMuPDFLoader and Docx2txtLoader
+- **UI**: Streamlit
+- **Framework**: Langgraph, Langchain
+- **Model**: OpenAI (integrated within Langchain)
+- **File Loaders**: PyMuPDFLoader and Docx2txtLoader
 
 ### How does it work?
 1. The file uploaded is identified by its type and the contents are extracted.
