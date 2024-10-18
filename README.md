@@ -43,14 +43,14 @@ Develop a multi-agent workflow that performs the following tasks:
 
 ### Structure
 project
-    - main.py
-    - loaders.py
-    - workflow.py
-    - agents
-        - reader_agent.py
-        - extractor_agent.py
-        - validator_agent.py
-    - uploaded
+- main.py
+- loaders.py
+- workflow.py
+- agents
+    - reader_agent.py
+    - extractor_agent.py
+    - validator_agent.py
+- uploaded
 
 ### How to run?
 
