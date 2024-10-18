@@ -43,15 +43,20 @@ Develop a multi-agent workflow that performs the following tasks:
 
 ### Structure
 project
-- main.py
-- loaders.py
-- workflow.py
+- `main.py`
+- `loaders.py`
+- `workflow.py`
 - agents
-    - reader_agent.py
-    - extractor_agent.py
-    - validator_agent.py
+    - `reader_agent.py`
+    - `extractor_agent.py`
+    - `validator_agent.py`
 - uploaded
-- requirements.txt
+- `requirements.txt`
+- `.env`
 
 ### How to run?
-
+1. create a conda environment - `conda create -n <venv> python=3.11`
+2. activate - `conda activate <venv>`
+3. `pip install -r requirements.txt`
+4. create a `.env` file and set your OPENAI_API_KEY=" "
+5. `streamlit run main.py` - initiates the workflow
