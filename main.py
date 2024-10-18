@@ -69,19 +69,13 @@ def main():
                     }
                     config = {"configurable": {"thread_id": "abc"}}
 
-                    output_placeholder = st.empty()
-                    
-                    # Stream the results
                     for s in workflow.stream(initial_state, config):
                         output = list(s.values())[0]
                         sender = output['sender']
                         message = output['messages'][0]
                         
-                        # Update the placeholder with the new content
-                        with output_placeholder.container():
-                            st.subheader(f"{sender.capitalize()} Agent Output")
+                        with st.expander(f"{sender.capitalize()} Agent Output", expanded=True):
                             st.write(message)
-                            st.markdown("---")
                     
                     st.success("Resume processing complete!")
 
