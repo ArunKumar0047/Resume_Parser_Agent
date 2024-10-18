@@ -51,6 +51,7 @@ project
     - extractor_agent.py
     - validator_agent.py
 - uploaded
+- requirements.txt
 
 ### How to run?
 
